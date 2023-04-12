@@ -6,6 +6,7 @@ import {
   GitHubIcon,
   TwitterIcon,
   ViewsIcon,
+  LinkedInIcon
 } from 'components/icons';
 import { name, about, bio, avatar } from 'lib/info';
 
@@ -43,24 +44,24 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://www.linkedin.com/in/krasnermark/"
             className="flex items-center gap-2"
           >
-            <TwitterIcon />
-            {`${tweetCount.toLocaleString()} tweets all time`}
+            <LinkedInIcon />
+            {/* {`${tweetCount.toLocaleString()} tweets all time`} */}
           </a>
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/leerob"
+            href="https://github.com/mzkrasner"
             className="flex items-center gap-2"
           >
             <GitHubIcon />
-            {`${starCount.toLocaleString()} stars on this repo`}
+            {/* {`${starCount.toLocaleString()} stars on this repo`} */}
           </a>
           <Link href="/blog" className="flex items-center">
-            <ViewsIcon />
-            {`${views.toLocaleString()} blog views all time`}
+            {/* <ViewsIcon />
+            {`${views.toLocaleString()} blog views all time`} */}
           </Link>
         </div>
       </div>
@@ -69,26 +70,26 @@ export default async function HomePage() {
       </p>
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
         <li>
-          <a
+          {/* <a
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="#"
           >
             <ArrowIcon />
             <p className="h-7">follow me on twitter</p>
-          </a>
+          </a> */}
         </li>
         <li>
-          <a
+          {/* <a
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://leerob.substack.com"
+            href="#"
           >
             <ArrowIcon />
             <p className="h-7">get email updates</p>
-          </a>
+          </a> */}
         </li>
       </ul>
     </section>

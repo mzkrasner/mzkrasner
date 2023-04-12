@@ -1,22 +1,19 @@
-import me from '../app/avatar.jpg';
+import me from '../app/new.jpg';
 
-export const name = 'Lee Robinson';
+export const name = 'Mark Krasner';
 export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hey, I'm Lee. I'm the <b>VP of Developer Experience at Vercel</b> where my
-      team helps developers build a faster web.
+      I'm a software engineer with experience in fullstack JavaScript & TypeScript development, with a passion for distributed system design. 
+      Current engineer at xkite , a comprehensive prototyping, testing, and monitoring suite for Apache Kafka.
     </>
   );
 };
 export const bio = () => {
   return (
     <>
-      I'm a Next.js contributor and help lead our open-source communities. I'm
-      passionate about frontend development and have created courses on React,
-      Next.js, and web development. I'm an advisor and investor in early stage
-      startups.
+      When I'm not coding, I'm probably playing piano, listening to podcasts, or hunting for new single-origin coffees to try.
     </>
   );
 };

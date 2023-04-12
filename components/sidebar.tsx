@@ -9,20 +9,20 @@ const navItems = {
   '/': {
     name: 'home',
   },
-  '/about': {
-    name: 'about',
-  },
+  // '/about': {
+  //   name: 'about',
+  // },
   '/blog': {
     name: 'blog',
   },
-  '/guestbook': {
-    name: 'guestbook',
-  },
+  // '/guestbook': {
+  //   name: 'guestbook',
+  // },
 };
 
 function Logo() {
   return (
-    <Link aria-label="Lee Robinson" href="/">
+    <Link aria-label="Mark Krasner" href="/">
       <motion.svg
         className="text-black dark:text-white h-[25px] md:h-[37px]"
         width="25"
@@ -75,7 +75,7 @@ export default function Navbar() {
     <aside className="md:w-[150px] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0 font-serif">
       <div className="lg:sticky lg:top-20">
         <div className="ml-2 md:ml-[12px] mb-2 px-4 md:px-0 md:mb-8 space-y-10 flex flex-col md:flex-row items-start ">
-          <Logo />
+          {/* <Logo /> */}
         </div>
         <LayoutGroup>
           <nav
